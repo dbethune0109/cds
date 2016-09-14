@@ -1,0 +1,13 @@
+<h1>Cd Organizer!</h1>
+
+#if ($cds)
+  <ul>
+    #foreach ($cd in $cds)
+      <li><a href="/cds/$cd.getId()">$cd.getDescription()</a></li>
+    #end
+  </ul>
+#else
+  <p>No Cds!</p>
+#end
+
+<a href="/cds/new">Add New CD</a>

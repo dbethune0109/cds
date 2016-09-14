@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CdsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-09-14T18:43:37" hostname="epicodus-8.local" time="0.053">
+  <properties/>
+  <testcase name="find_returnsCdsWithSameId_secondCds" classname="CdsTest" time="0.052"/>
+  <testcase name="clear_emptiesAllCdssFromArrayList_0" classname="CdsTest" time="0.0"/>
+  <testcase name="getId_tasksInstantiateWithAnID_1" classname="CdsTest" time="0.0"/>
+  <testcase name="all_returnsAllInstancesOfCds_true" classname="CdsTest" time="0.0"/>
+  <testcase name="getCreatedAt_instantiatesWithCurrentTime_today" classname="CdsTest" time="0.0"/>
+  <testcase name="isCompleted_isFalseAfterInstantiation_false" classname="CdsTest" time="0.0"/>
+  <testcase name="Cds_instantiatesCorrectly_true" classname="CdsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

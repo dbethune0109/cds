@@ -1,0 +1,16 @@
+<h1>Welcome to the Cd Organizer</h1>
+
+<a href="/cds/new">Add a new CD</a>
+<a href="/cds">View all current CDS</a>
+
+#if ($cds)
+  <ul>
+    #foreach ($cd in $cds)
+      <li>$cd.getDescription()</li>
+    #end
+  </ul>
+#else
+  <p>No cds!</p>
+#end
+
+<a href="/cds/new">Add New Task</a>

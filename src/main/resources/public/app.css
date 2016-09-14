@@ -1,5 +1,5 @@
 body{
-  background-image:url(http://www.planwallpaper.com/static/images/0ae09e0e32ee9e71552e3a9872f96335.jpg);
+  background-image:url(https://images3.alphacoders.com/960/96089.jpg);
   height: 100%;
   width: 100%;
 }
@@ -10,4 +10,13 @@ h1{
 a {
   color: white;
 
+}
+#cdm{
+  color: white;
+}
+#cdt{
+  color: white;
+}
+ul{
+  color: white;
 }

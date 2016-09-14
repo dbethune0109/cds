@@ -1,13 +1,17 @@
 <h1>Cd Organizer!</h1>
 
-#if ($cds)
+#if ($artists)
   <ul>
-    #foreach ($cd in $cds)
-      <li><a href="/cds/$cd.getId()">$cd.getDescription()</a></li>
+    #foreach ($artist in $artists)
+      <li><a href="/cds/$artist.getId()"> $artist.getName()</a></li>
+      #foreach ($cd in $artist.getCds())
+        <li> $cd.getDescription() </a></li>
+      #end
     #end
   </ul>
 #else
-  <p>No Cds!</p>
+  <p>No Artists!</p>
 #end
+
 
 <a href="/cds/new">Add New CD</a>
